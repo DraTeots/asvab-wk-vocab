@@ -1,0 +1,65 @@
+
+
+Print comma separated list of the final 100 words list. Only comma separated list, nothing else.
+Double check that is the correct list and there is 100 words.
+Triple check yourself.
+In the end I need Only comma separated list, nothing else
+
+---------------------------------
+
+
+Make .mochi cards with the 100 words. Each back card must include (each on a new line):
+
+1. Word meaning
+2. Russian word translate
+3. Mnemonic Idea hot to remember it, e.g. "amenable - a man able to agree"
+4. example
+5. Nuance of use e.g. "usually used in legal"
+6. asvab like question with tricky phrases that includes this word, short answer.
+   - E.g. "Antonime of "rain abates": "increase"
+   - "synonym for "Aberrant mouse" will be ...
+   - "The project was held in abeyance" - was project funded? - No it was held
+   - If you antagonize a bear, are you calming it down? Answer: No!
+
+
+
+You create mochi style cards:
+
+1. Markdown formatting
+2. Use @@@ + blank line to separate cards
+3. Important: Use "---" (3 dashes, not ## or anything) + blank line after the word to separate the front and the back of the card.
+
+Example:
+
+Card example (dont use ```markdown)
+
+```markdown
+
+Antagonize
+Meaning: To cause (someone) to become hostile
+Russian: Настраивать против себя
+Mnemonic: “Antagonist” → The bad guy in a book antagonizes the hero
+Example: Don't antagonize the dog or it might bite.
+Nuance: Active provocation
+
+Q: If you antagonize a bear, are you calming it down?: No!
+
+@@@
+
+Aberrant
+
+...
+```
+
+
+Generation rules:
+
+1. Double check you printed all words!!!
+2. Use canvas for the answer.
+3. I only need cards.
+
+
+
+Task: Generate only cards, no other words.
+In the end of your message print all words that are left: initial list minus created cards, comma separated.
+I will say continue to the next part of the list.
