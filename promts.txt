@@ -1,25 +1,50 @@
 
+Have asvab wk as example of words knoweledge test.
+Generate me a list of 100 less common the most test relevant english words starting with "C".
+Important, words must be still usable and rather common in modern language.
+Check there is no repeating words, e.g. Calculated, Calculation, Calculating.
+Double check the best word meaning.
 
-Print comma separated list of the final 100 words list. Only comma separated list, nothing else.
-Double check that is the correct list and there is 100 words.
+I need only a list - word - short description.
+
+---------------------------------
+
+I know these words from the list:
+
+And I know these words proposed in different prompts, don't use:
+
+Think and double check yourself that you are not using correct words and there is final 100 words not repeating and following rules above
+
+Generate substitutes. Replace only words I know or say dont use
+
+
+
+
+---------------------------------
+
+Print comma separated list of the final words list. Only comma separated list, nothing else.
+Double check that is the correct list and there is correct count of words.
 Triple check yourself.
 In the end I need Only comma separated list, nothing else
 
 ---------------------------------
 
 
-Make .mochi cards with the 100 words. Each back card must include (each on a new line):
+Make .mochi cards with the words. Each back card must include (each on a new line):
 
 1. Word meaning
 2. Russian word translate
 3. Mnemonic Idea hot to remember it, e.g. "amenable - a man able to agree"
 4. example
-5. Nuance of use e.g. "usually used in legal"
-6. asvab like question with tricky phrases that includes this word, short answer.
-   - E.g. "Antonime of "rain abates": "increase"
-   - "synonym for "Aberrant mouse" will be ...
-   - "The project was held in abeyance" - was project funded? - No it was held
-   - If you antagonize a bear, are you calming it down? Answer: No!
+5. Closest synonym and antonym
+6. Nuance of use e.g. "usually used in legal"
+7. asvab like question with tricky phrases that includes this word, short answer.
+   Questions must be so that answers may be positive, negative and more complex selection from multiple choice, but as in asvab, should show word knoweledge.
+   - "The project was held in abeyance" - was project funded or held? - held
+   - If you antagonize a bear, are you calming it down? Answer:  No, antagonize anger bear
+  -  Opposite of "Conserved food"? - Fresh food
+  - If food was canned, was it fresh or conserved? - Canned usually means conserved, it cant be fresh.
+- If we need to color walls in bright colors, we select brown, deep blue or light yellow? - Light yellow is the brightest from 3.
 
 
 
@@ -35,18 +60,20 @@ Card example (dont use ```markdown)
 
 ```markdown
 
-Antagonize
-Meaning: To cause (someone) to become hostile
-Russian: Настраивать против себя
-Mnemonic: “Antagonist” → The bad guy in a book antagonizes the hero
-Example: Don't antagonize the dog or it might bite.
-Nuance: Active provocation
+Deter
 
-Q: If you antagonize a bear, are you calming it down?: No!
+---
+
+Meaning: To discourage someone from doing something
+Russian: Сдерживать, отпугивать
+Mnemonic: "De-ter" → Terror that stops you
+Example: Security cameras deter potential thieves.
+Synonym: Discourage | Antonym: Encourage
+Nuance: Often used for crime prevention; implies fear of consequences
+Q: Does a deterrent encourage an action? No, deter = discourage/prevent
 
 @@@
 
-Aberrant
 
 ...
 ```
@@ -55,11 +82,9 @@ Aberrant
 Generation rules:
 
 1. Double check you printed all words!!!
-2. Use canvas for the answer.
-3. I only need cards.
-
+2. Double check that question-answers are mixed - not all just No or Yes. They must be mix of Yes, No, selection from multiple choice.
+3. Use canvas.
+4. I only need cards.
 
 
 Task: Generate only cards, no other words.
-In the end of your message print all words that are left: initial list minus created cards, comma separated.
-I will say continue to the next part of the list.
